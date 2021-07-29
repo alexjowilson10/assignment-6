@@ -4,7 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    border: 0 solid #e2e8f0;
 }
+::after, ::before {
+    box-sizing: border-box;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -12,6 +17,156 @@ html{
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
+
+
+
+}
+
+
+/* Messi Goals */
+.StatsBlock-module--statsBlock---Gffk:first-of-type .StatsBlock-module--goals--NKbmt {
+    --bg-opacity: 1;
+    background-color: #74ACDF;
+    border-left-width: 1px;
+    --border-opacity: 1;
+    border-color: #0b0e13;
+    border-color: rgba(11,14,19,var(--border-opacity));
+}
+
+.StatsBlock-module--goals--NKbmt {
+    width: 40%;
+    text-align: center;
+}
+
+.StatsBlock-module--stat--3dOFi {
+    padding: 0.75rem 1.75rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem .5rem .75rem;
+    line-height: 1;
+}
+
+.StatsBlock-module--goals--NKbmt .StatsBlock-module--statNum--1Tu-D, .StatsBlock-module--goals--NKbmt .StatsBlock-module--statNum--1Tu-D.StatsBlock-module--largeNum--1nl6o {
+    font-size: 2.8rem;
+}
+
+.StatsBlock-module--stat--3dOFi .StatsBlock-module--statNum--1Tu-D {
+    display: block;
+    font-weight: 800;
+    margin-top: auto;
+    margin-bottom: .5rem;
+    color: #fff;
+} 
+
+.StatsBlock-module--stat--3dOFi .StatsBlock-module--statType--3aTn2 {
+    display: block;
+    font-size: .9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: auto;
+    font-size: .75rem;
+    padding-left: 4%;
+    color: #fff;
+}
+
+.StatsBlock-module--goals--NKbmt {
+    text-align: left;
+}
+
+/* Messi Assists */
+.StatsBlock-module--statsBlock---Gffk:first-of-type .StatsBlock-module--assists--2zdS2 {
+    --bg-opacity: 1;
+    background-color: #74ACDF;
+    border-left-width: 1px;
+    --border-opacity: 1;
+    border-color: #0b0e13;
+    border-color: rgba(11,14,19,var(--border-opacity));
+}
+
+.StatsBlock-module--assists--2zdS2 {
+    --bg-opacity: 1;
+    background-color: #74ACDF;
+    font-size: 1.5rem;
+    opacity: .9;
+    width: 37%;
+}
+
+.StatsBlock-module--assists--2zdS2 .StatsBlock-module--statNum--1Tu-D {
+    font-size: 2.9rem;
+}
+
+.StatsBlock-module--stat--3dOFi .StatsBlock-module--statNum--1Tu-D {
+    display: block;
+    font-weight: 800;
+    margin-top: auto;
+    margin-bottom: .5rem;
+}
+
+/* Messi Appearences */
+.StatsBlock-module--statsBlock---Gffk:first-of-type .StatsBlock-module--apps--10lik {
+    --bg-opacity: 1;
+    background-color: #74ACDF;
+}
+
+.StatsBlock-module--apps--10lik {
+    font-size: 1.25rem;
+    opacity: .8;
+    width: 25%;
+}
+
+.StatsBlock-module--apps--10lik .StatsBlock-module--statNum--1Tu-D {
+    font-size: 2.6rem;
+}
+
+.StatsBlock-module--stat--3dOFi .StatsBlock-module--statNum--1Tu-D {
+    display: block;
+    font-weight: 800;
+    margin-top: auto;
+    margin-bottom: .5rem;
+}
+
+.StatsBlock-module--stat--3dOFi .StatsBlock-module--statType--3aTn2 {
+    font-size: .9rem;
+}
+
+/* Messi's Goal per Minute */
+.StatsBlock-module--subStatsItem--20nHo {
+    font-size: .875rem;
+    --bg-opacity: 1;
+    background-color: #1e2633;
+    font-size: .75rem;
+    margin-top: .25rem;
+    padding: .25rem;
+    --text-opacity: 1;
+    color: #e2e8f0;
+    color: rgba(226,232,240,var(--text-opacity));
+}
+
+.StatsBlock-module--subStat--3-1S8 {
+    font-size: 1rem;
+    font-weight: 700;
+    font-size: .875rem;
+    margin-right: .25rem;
+}
+
+
+.text-green-400 {
+    --text-opacity: 1;
+    color: #68d391;
+    color: rgba(104,211,145,var(--text-opacity));
+}
+
+
+
+
+
+
+
+body{
+    --text-opacity: 1;
 }
 
 /* nav bar styling */
@@ -26,7 +181,7 @@ html{
 
 .navbar.sticky{
     padding: 15px 0;
-    background: limegreen;
+    background: #4a5cff;
 }
 
 .navbar .max-width{
@@ -42,7 +197,7 @@ html{
 }
 
 .navbar .logo a span{
-    color: limegreen;
+    color: #4a5cff;
     transition: all 0.3s ease;
 }
 
@@ -60,17 +215,81 @@ html{
     color: white;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 25px;
     transition: color 0.3s ease;
 }
 
 .navbar .menu li a:hover{
-    color: limegreen;
+    color: #4a5cff;
 }
 
 .navbar.sticky .menu li a:hover{
     color:white;
 }
+
+/* The dropdown container */
+.dropdown {
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+ .dropbtn {
+    background-color:#4a5cff;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4a5cff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #111;
+    color: #4a5cff;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    max-height:250px;/* you can change as you need it */
+    overflow:auto;/* to get scroll */
+  }
+
+
+
+
+
 
 /* menu btn styling */
 .menu-btn{
@@ -83,7 +302,7 @@ html{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: limegreen;
+    background: #4a5cff;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -110,11 +329,12 @@ html{
 /* Home Section Styling */
 .home{
     display:flex;
-    background: url("images/mr3.jpeg") no-repeat center;
+    /*background: url("images/mr3.jpeg")*/ no-repeat center;
     background-size: cover;
     background-attachment:fixed; /* he put fixed in the video */
+    background-color: #222;
     background-position-y: 2%;
-    height: 150vh;
+    height: 600px;
     color: white;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
@@ -124,6 +344,12 @@ html{
     margin: auto 0 auto 40px;
 }
 
+.home .home-content{
+    margin-right: 20px;
+    margin-left: -20px;
+}
+
+
 .home .home-content .text-1{
     font-size: 27px;
 }
@@ -131,28 +357,28 @@ html{
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
-    margin-left: -3px;
+    margin-left: auto;
+    color: #4a5cff;
+    text-align: center;
+    margin-top: 23%;
 }
 
-.home .home-content .text-3{
+.home .home-content .text-4{
     font-size: 40px;
     margin: 5px 0;
+    color: #FDDA0D;
 }
 
-.home .home-content .text-3 span{
-    color: limegreen;
-    font-weight: 500;
-}
 
 .home .home-content a{
     display: inline-block;
-    background-color: limegreen;
+    background-color: #4a5cff;
     color: white;
     font-size: 25px;
     padding: 12px 25px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid limegreen;
+    border: 2px solid #4a5cff;
     transition: all 0.3s ease;
 }
  
@@ -160,6 +386,33 @@ html{
     color: white;
     background: none;
 }
+
+/* Messi Picture */
+.home .container .messi img {
+    float: left;
+    position: relative;
+    right: 232px;
+    bottom: 148px;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+/* CR7 Picture */
+.home .container .cr7 img{
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 182px;
+    position: relative;
+    float: right;
+    bottom: 153px;
+    right: 712px;
+    left: 145px;
+}
+
+
 
 
 /* All Similar stying code */
@@ -185,6 +438,7 @@ section .title{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
+    color: #ffd600;
 }
 section .title::before{
     content: "";
@@ -201,16 +455,21 @@ section .title::after{
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: limegreen;
+    color: #4a5cff;
     padding: 5px;
-    background: #fff;
+    background: #0b0e13;;
     transform: translateX(-50%);
 }
 
 /* About section styling */
-.about .title::after{
-    content: "who i am"
+#about2 .title::after{
+    content: "Club Season"
 }
+
+.about #messi21{
+    margin-top: 25px;
+}
+
 .about .about-content .left{
     width: 45%;
 }
@@ -228,27 +487,316 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
+
+.about .about-content .right .b{
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    width: 23%;
+    height: 100px;
+    background-color:#89CFF0;
+    text-align: center;
+}
+
+.about .about-content .right .clubCountry{
+    text-align: center;
+    color: #111;
+    bottom: 50px;
+    position: relative;
+    bottom: 81px;
+    right: 79px;;
+}
+
+.about .about-content .right .clubCountry h2{
+    position: relative;
+    right: 6px;
+}
+
+.about .about-content .right .b1{
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    width: 23%;
+    height: 100px;
+    background-color:#89CFF0;
+    text-align: center;
+}
+.about .about-content .right .club{
+    position: relative;
+    bottom: 60px;
+    right: 5px;
+}
+
+.about .about-content .right .club h2{
+    position: relative;
+    left: 157px
+}
+
+
+
+
+
+
+
+
 .about .about-content .right .text span{
-    color: limegreen;
+    color: #4a5cff;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background-color: limegreen;
+    background-color: #4a5cff;
     color: white;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid limegreen;
+    border: 2px solid #4a5cff;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: limegreen;
+    color: #4a5cff;
     background: none;
+}
+
+
+#about1{
+    height:2000px;
+    background-color: #111;
+    color: #fff;
+
+}
+
+#about2{
+    height: 2000px;
+    width: 100%;
+    background-color: #111;
+}
+#about2 h2{
+    color: #fff;
+}
+
+.CompetitionBlock-module--competitionBlock--1vvC7 {
+    padding: 2rem 2rem 2.5rem;
+    /*max-width: 950px; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #13181f;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.CompetitionBlock-module--container--2IsFW {
+    max-width: 750px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+.lg\:text-xl {
+    font-size: 1.25rem;
+}
+
+
+.md\:mb-5 {
+    margin-bottom: 1.25rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.tracking-wider {
+    letter-spacing: .05em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.font-bold {
+    font-weight: 700;
+    color: #fff;
+}
+
+blockquote, figure, h1, h2, h3, h4, p {
+    margin: 0;
+        margin-bottom: 0px;
+}
+
+
+.CompetitionBlock-module--subtitle--iznVS {
+    font-size: .85rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.normal-case {
+    text-transform: none;
+}
+
+.text-gray-600 {
+    --text-opacity: 1;
+    color: #718096;
+    color: rgba(113,128,150,var(--text-opacity));
+}
+
+.mt-1 {
+    margin-top: .25rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.block {
+    display: block;
+}
+
+.StatsBlock-module--statsBlock---Gffk:first-of-type {
+    padding-right: 1px;
+}
+
+.w-1\/2 {
+    width: 50%;
+}
+
+.relative {
+    position: relative;
+}
+
+.StatsBlock-module--playerTitle--34o4h {
+    font-size: .75rem;
+    padding-top: .25rem;
+    padding-bottom: .5rem;
+    letter-spacing: .05em;
+    --bg-opacity: 1;
+    background-color: #1e2633;
+    background-color: rgba(30,38,51,var(--bg-opacity));
+    --text-opacity: 1;
+    color: #74ACDF;
+    color: rgba(0,185,191,var(--text-opacity));
+    text-transform: uppercase;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.StatsBlock-module--playerTitle--34o4h .StatsBlock-module--club--2QFvb {
+    margin-left: .25rem;
+    --text-opacity: 1;
+    color: #74ACDF;
+    color: rgba(0,136,140,var(--text-opacity));
+    opacity: .7;
+}
+
+.StatsBlock-module--statsBlock---Gffk:first-of-type .StatsBlock-module--mainStats--12QxA {
+    flex-direction: row-reverse;
+}
+
+.relative {
+    position: relative;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Ronaldo */
+.StatsBlock-module--statsBlock---Gffk:last-of-type {
+    padding-left: 1px;
+}
+
+.StatsBlock-module--statsBlock---Gffk:last-of-type .StatsBlock-module--playerTitle--34o4h {
+    --text-opacity: 1;
+    color: #FF0000;
+}
+
+.StatsBlock-module--statsBlock---Gffk:last-of-type .StatsBlock-module--playerTitle--34o4h .StatsBlock-module--club--2QFvb {
+    --text-opacity: 1;
+    color: #FF0000;
+}
+
+/* CR7 Goals */
+.StatsBlock-module--statsBlock---Gffk:last-of-type .StatsBlock-module--goals--NKbmt {
+    --bg-opacity: 1;
+    background-color: #FF0000;
+    border-right-width: 1px;
+    --border-opacity: 1;
+    border-color: #0b0e13;
+    border-color: rgba(11,14,19,var(--border-opacity));
+}
+
+/* CR7 Assists */
+.StatsBlock-module--statsBlock---Gffk:last-of-type .StatsBlock-module--assists--2zdS2 {
+    --bg-opacity: 1;
+    background-color: #FF0000;
+    border-right-width: 1px;
+    --border-opacity: 1;
+    border-color: #0b0e13;
+    border-color: rgba(11,14,19,var(--border-opacity));
+}
+
+/* CR7 Apps */
+.StatsBlock-module--statsBlock---Gffk:last-of-type .StatsBlock-module--apps--10lik {
+    --bg-opacity: 1;
+    background-color: #FF0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+h1, h2, h3, h4 {
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 /* Project section styling */
@@ -273,7 +821,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .project .project-content .card:hover {
-    background: limegreen;
+    background: #4a5cff;
 }
 .project .project-content .card .box{
     transition: all 0.3s ease;
@@ -283,7 +831,7 @@ section .title::after{
 }
 .project .project-content .card i{
     font-size: 50px;
-    color: limegreen;
+    color: #4a5cff;
     transition: color 0.3s ease;
 }
 .project .project-content .card:hover i {
@@ -308,7 +856,7 @@ section .title::after{
     margin-bottom: 10px;
 } 
 .skills .skills-content .left p span {
-    color: limegreen;
+    color: #4a5cff;
     font-weight: 500;
     font-size: 17px;
 }
@@ -317,17 +865,17 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background-color: limegreen;
+    background-color: #4a5cff;
     color: white;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid limegreen;
+    border: 2px solid #4a5cff;
 }
 .skills .skills-content .left a:hover{
-    color: limegreen;
+    color: #4a5cff;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -355,7 +903,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: limegreen;
+    background: #4a5cff;
 }
 .skills .skills-content .right .java::before{
     width: 90%;
@@ -385,7 +933,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .hobbies .carousel .card:hover{
-    background: limegreen;
+    background: #4a5cff;
 }
 .hobbies .carousel .card .box{
     display: flex;
@@ -406,7 +954,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid limegreen;
+    border: 5px solid #4a5cff;
     transition: all 0.3s ease;
 }
 .hobbies .carousel .card:hover img{
@@ -422,7 +970,7 @@ section .title::after{
     margin:0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid limegreen!important;
+    border: 2px solid #4a5cff!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -430,7 +978,7 @@ section .title::after{
     border-radius: 14px;
 }
 .owl-dot.active, .owl-dot:hover{
-    background: limegreen!important; 
+    background: #4a5cff!important; 
 }
 
 /* Content Styling Section */
@@ -461,7 +1009,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: limegreen;
+    color: #4a5cff;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -510,8 +1058,8 @@ section .title::after{
 .contact .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid limegreen;
-    background: limegreen;
+    border: 2px solid #4a5cff;
+    background: #4a5cff;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -520,7 +1068,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color: limegreen;
+    color: #4a5cff;
     background: none;
 }
 
@@ -531,7 +1079,7 @@ footer{
     color: #fff;
 }
 footer span a{
-    color: limegreen; 
+    color: #4a5cff; 
     text-decoration: none;
 }
 footer span a:hover{
@@ -648,8 +1196,18 @@ footer span a:hover{
     }
 
     .home .home-content .text-2{
-        font-size: 60px;
+        font-size: 40px;
+        position: relative;
+        right: 452px;
     }
+
+    .home .home-content .text-4{
+        font-size: 40px;
+        position: relative;
+        right: 452px;
+    }    
+
+
     .home .home-content .text-3{
         font-size: 32px;
     }
@@ -671,4 +1229,11 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
-}  
+} 
+
+
+#home1{
+    text-align: center;
+    position: relative;
+    left: 510px
+}

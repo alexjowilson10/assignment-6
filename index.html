@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0">
     <title>Messi vs. Ronaldo</title>
     <link rel="stylesheet" href="style.css">
 
@@ -11,7 +12,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 </head>
 
 <body>
@@ -19,17 +21,41 @@
         <i class="fas fa-angle-up"></i>
     </div>
 
+
     <!--Navigation Bar -->
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Messi<span> vs </span>Ronaldo</a></div>
+            <div class="logo"><a href="#"><i class="fas fa-futbol"></i></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#project" class="menu-btn">Projects</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#hobbies" class="menu-btn">Hobbies</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Club Seasons
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="2020-2021.html">2020/2021</a>
+                            <a href="2019-2020.html">2019/2020</a>
+                            <a href="2018-2019.html">2018/2019</a>
+                            <a href="2017-2018.html">2017/2018</a>
+                            <a href="2016-2017.html">2016/2017</a>
+                            <a href="2015-2016.html">2015/2016</a>
+                            <a href="2014-2015.html">2014/2015</a>
+                            <a href="2013-2014.html">2013/2014</a>
+                            <a href="2012-2013.html">2012/2013</a>
+                            <a href="2011-2012.html">2011/2012</a>
+                            <a href="2010-2011.html">2010/2011</a>
+                            <a href="2009-2010.html">2009/2010</a>
+                            <a href="2008-2009.html">2008/2009</a>
+                            <a href="2007-2008.html">2007/2008</a>
+                            <a href="2006-2007.html">2006/2007</a>
+                            <a href="2005-2006.html">2005/2006</a>
+                            <a href="2004-2005.html">2004/2005</a>
+                            <a href="2003-2004.html">2003/2004</a>
+                            <a href="2002-2003.html">2002/2003</a>
+                        </div>
+                    </div>
+                </li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"> </i>
@@ -37,253 +63,291 @@
         </div>
     </nav> 
 
-    <!----home section start ----> 
+
+
+
+
+
+
+
+
+
+
+
+    <!----home section start ---->
     <section class="home" id="home">
-        <div class="max-width">
+        <div class="max-width" id="home1">
             <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Alex Wilson</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="#">Hire me</a>
+                <div class="text-2">MESSI VS RONALDO</div>
+                <div class="text-4">ALL TIME STATS</div>
+            </div>
+            <div class="container">
+
+                <!--MESSI-->
+                <div class="messi" id="messiHome">
+                    <img id="messi21" src="images/messiPng.png" alt="">
+                </div>
+                
+                <!--CR7-->
+                <div class="cr7" id="cr7Home">
+                    <img src="images/cr7Home1.png" alt="">
+                </div>
             </div>
         </div>
     </section>
 
-    <!--About Section Start -->
-    <section class="about" id="about">
+
+
+    <!--All Time Stats-->
+    <section class="about" id="about1">
         <div class="max-width">
-            <h2 class="title">About me</h2>
             <div class="about-content">
-                <div class="column left"> 
-                    <img src="IMG_4936.jpeg" alt="">
-                </div>
-                <div class="column right">
-                    <div class="text">I'm Alex and I'm a <span class="typing-2"></span></div>
-                    <p>I'm currently a senior at WWU, studying Computer Science. My expected graduation is Winter 2022.  </p>
-                    <p>I'm a hard-working, motiviated, and passionate individual when it comes to programming. I have most experience in back-end, but more than capable to work in the front-end. </p>
-                    <a href="SWE_Resume.pdf">Download Resume</a>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!--Project Section Start -->
-    <section class="project" id="project">
-        <div class="max-width">
-            <h2 class="title">My projects</h2>
-            <div class="project-content">
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-desktop"></i>
-                        <div class="text">Chat Room Server</div>
-                        <p>A server for a simple online chat application done in C. Used socket programming fundamentals to get this
-                            accomplished. </p>
+                <!--All Time Career-->
+                <article class="CompetitionBlock-module--competitionBlock--1vvC7 competition-block text-center">
+                    <div class="CompetitionBlock-module--container--2IsFW flex flex-wrap mx-auto">
+                        <h2 class="w-full uppercase tracking-wider font-bold text-lg lg:text-xl mb-3 xs:mb-4 md:mb-5">
+                            All Time Career <small
+                                class="CompetitionBlock-module--subtitle--iznVS block normal-case text-gray-600 font-normal w-full mx-auto mt-1">Excluding
+                                club friendlies</small></h2>
+                        <div class="StatsBlock-module--statsBlock---Gffk relative text-center w-1/2">
+                            <h3 class="StatsBlock-module--playerTitle--34o4h"><span class="undefined">Messi </span><span
+                                    class="sr-only">Stats All Time Career All Time </span><span
+                                    class="StatsBlock-module--club--2QFvb"></span></h3>
+                            <ul class="StatsBlock-module--mainStats--12QxA relative flex">
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--goals--NKbmt"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">748</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Goals</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--assists--2zdS2"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">315</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Assists</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--apps--10lik"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">929</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Apps</span></li>
+                            </ul>
+                            <ul class="undefined">
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 text-green-400">102</span><span
+                                        class="undefined text-green-400"> mins per goal</span>
+                                </li>
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 text-green-400">72</span><span
+                                        class="undefined text-green-400"> mins per goal
+                                        contribution</span></li>
+                            </ul>
+                        </div>
+                        <div class="StatsBlock-module--statsBlock---Gffk relative text-center w-1/2">
+                            <h3 class="StatsBlock-module--playerTitle--34o4h"><span class="undefined">Ronaldo
+                                </span><span class="sr-only">Stats All Time Career All Time </span><span
+                                    class="StatsBlock-module--club--2QFvb"></span></h3>
+                            <ul class="StatsBlock-module--mainStats--12QxA relative flex">
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--goals--NKbmt"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">783</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Goals</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--assists--2zdS2"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">225</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Assists</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--apps--10lik"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">1073</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Apps</span></li>
+                            </ul>
+                            <ul class="undefined">
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 ">112</span><span class="undefined ">
+                                        mins per goal</span></li>
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 ">87</span><span class="undefined ">
+                                        mins per goal contribution</span></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-desktop"></i>
-                        <div class="text">Deadwood GUI Board Game</div>
-                        <p> In class project of the Deadwood board game done in Java to enforce OOP concepts. 
-                         I parsed a large XML file that contains the data of the game fundamentals such as game cards, player stats, location of players on board etc. 
-                         The GUI of the game was done in Java Swing.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-desktop"></i>
-                        <div class="text">Microshell</div>
-                        <p> A simple shell created in C that is capable of processing common shell commands like cd, ls, pipes, processing scripts, etc. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                </article>
 
-    <!--Skill Section -->
-    <section class="skills" id="skills"> 
-        <div class="max-width">
-            <h2 class="title">My Skills</h2>
-            <div class="skills-content">
-                <div class="column left">
-                    <div class="text">My creative skills & experiences </div>
-                    <p><span>Languages:</span> Python, Java, C, Javascript, HTML/CSS, SQL</p>
-                    <p><span>Technologies:</span> GitHub, jQuery, MySQL, React</p>
-                    <p><span>Experiences:</span> Back-End Development, Front-End Development. Creating responsive websites. (Like this one) </p>
-                    <p><span>Soft skills:</span> Hard-working, problem-solver, leader, passionate & goal-driven </p>
-                    <a href="#">Read more</a>
-                </div>
-                <div class="column right">
-                    <div class="bars">
-                        <div class="infor">
-                            <span>Java</span>
-                            <span>90%</span>
+                <!--All Time Club -->
+                <article class="CompetitionBlock-module--competitionBlock--1vvC7 competition-block text-center">
+                    <div class="CompetitionBlock-module--container--2IsFW flex flex-wrap mx-auto">
+                        <h2 class="w-full uppercase tracking-wider font-bold text-lg lg:text-xl mb-3 xs:mb-4 md:mb-5">
+                            All Time Club <small
+                                class="CompetitionBlock-module--subtitle--iznVS block normal-case text-gray-600 font-normal w-full mx-auto mt-1">Excluding
+                                friendlies</small></h2>
+                        <div class="StatsBlock-module--statsBlock---Gffk relative text-center w-1/2">
+                            <h3 class="StatsBlock-module--playerTitle--34o4h"><span class="undefined">Messi </span><span
+                                    class="sr-only">Stats All Time Club All Time </span><span
+                                    class="StatsBlock-module--club--2QFvb"></span></h3>
+                            <ul class="StatsBlock-module--mainStats--12QxA relative flex">
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--goals--NKbmt"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">672</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Goals</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--assists--2zdS2"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">268</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Assists</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--apps--10lik"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">778</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Apps</span></li>
+                            </ul>
+                            <ul class="undefined">
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 text-green-400">95</span><span
+                                        class="undefined text-green-400"> mins per goal</span></li>
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 text-green-400">68</span><span
+                                        class="undefined text-green-400"> mins per goal
+                                        contribution</span></li>
+                            </ul>
                         </div>
-                        <div class="line java"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="infor">
-                            <span>Python</span>
-                            <span>70%</span>
+                        <div class="StatsBlock-module--statsBlock---Gffk relative text-center w-1/2">
+                            <h3 class="StatsBlock-module--playerTitle--34o4h"><span class="undefined">Ronaldo
+                                </span><span class="sr-only">Stats All Time Club All Time </span><span
+                                    class="StatsBlock-module--club--2QFvb"></span></h3>
+                            <ul class="StatsBlock-module--mainStats--12QxA relative flex">
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--goals--NKbmt"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">674</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Goals</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--assists--2zdS2"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">194</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Assists</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--apps--10lik"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">894</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Apps</span></li>
+                            </ul>
+                            <ul class="undefined">
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 ">108</span><span class="undefined ">
+                                        mins per goal</span></li>
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 ">84</span><span class="undefined ">
+                                        mins per goal contribution</span></li>
+                            </ul>
                         </div>
-                        <div class="line python"></div>
                     </div>
-                    <div class="bars">
-                        <div class="infor">
-                            <span>C</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line c"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="infor">
-                            <span>JavaScript</span>
-                            <span>60%</span>
-                        </div>
-                        <div class="line javascript"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="infor">
-                            <span>SQL</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line sql"></div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                </article>
 
+                <!--All Time Champions League-->
+                <article class="CompetitionBlock-module--competitionBlock--1vvC7 competition-block text-center">
+                    <div class="CompetitionBlock-module--container--2IsFW flex flex-wrap mx-auto">
+                        <h2 class="w-full uppercase tracking-wider font-bold text-lg lg:text-xl mb-3 xs:mb-4 md:mb-5">
+                            All Time Champions League </h2>
+                        <div class="StatsBlock-module--statsBlock---Gffk relative text-center w-1/2">
+                            <h3 class="StatsBlock-module--playerTitle--34o4h"><span class="undefined">Messi </span><span
+                                    class="sr-only">Stats All Time Champions League All Time </span><span
+                                    class="StatsBlock-module--club--2QFvb"></span></h3>
+                            <ul class="StatsBlock-module--mainStats--12QxA relative flex">
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--goals--NKbmt"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">120</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Goals</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--assists--2zdS2"><span
+                                        class="StatsBlock-module--statNum--1Tu-D ">35</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Assists</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--apps--10lik"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">149</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Apps</span></li>
+                            </ul>
+                            <ul class="undefined">
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 text-green-400">103</span><span
+                                        class="undefined text-green-400"> mins per goal</span>
+                                </li>
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 text-green-400">80</span><span
+                                        class="undefined text-green-400"> mins per goal
+                                        contribution</span></li>
+                            </ul>
+                        </div>
+                        <div class="StatsBlock-module--statsBlock---Gffk relative text-center w-1/2">
+                            <h3 class="StatsBlock-module--playerTitle--34o4h"><span class="undefined">Ronaldo
+                                </span><span class="sr-only">Stats All Time Champions League All Time </span><span
+                                    class="StatsBlock-module--club--2QFvb"></span></h3>
+                            <ul class="StatsBlock-module--mainStats--12QxA relative flex">
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--goals--NKbmt"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">135</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Goals</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--assists--2zdS2"><span
+                                        class="StatsBlock-module--statNum--1Tu-D ">41</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Assists</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--apps--10lik"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">180</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Apps</span></li>
+                            </ul>
+                            <ul class="undefined">
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 ">115</span><span class="undefined ">
+                                        mins per goal</span></li>
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 ">89</span><span class="undefined ">
+                                        mins per goal contribution</span></li>
+                            </ul>
+                        </div>
+                        <p class="text-xs text-gray-600 text-center mt-3 px-2 xs:px-0 w-full">Ronaldo stats include: 1
+                            goal, 1 assist and 3 appearances in UCL qualifying for Man Utd + 1 appearance in UCL
+                            qualifying for Sporting</p>
+                    </div>
+                </article>
 
-    <!--Hobbies Section -->
-    <section class="hobbies" id="hobbies">
-        <div class="max-width">
-            <h2 class="title">My hobbies</h2>
-            <div class="carousel owl-carousel">
-                <div class="card">
-                    <div class="box">
-                        <img src="images/messi.jpg" alt="">
-                        <div class="text">Playing & watching soccer</div>
-                        <p>I was introduced to the beautiful game in middle school and it has been my passion ever since. </p>
-                        <p>Fun fact, I actually made my own Sunday League team in a league called, La Nueva Generacion, located in Skagit County, WA.</p>
-                        <p>(P.S. Messi is the GOAT!)</p>
+                <!--All Time International-->
+                <article class="CompetitionBlock-module--competitionBlock--1vvC7 competition-block text-center">
+                    <div class="CompetitionBlock-module--container--2IsFW flex flex-wrap mx-auto">
+                        <h2 class="w-full uppercase tracking-wider font-bold text-lg lg:text-xl mb-3 xs:mb-4 md:mb-5">
+                            All Time Internationals </h2>
+                        <div class="StatsBlock-module--statsBlock---Gffk relative text-center w-1/2">
+                            <h3 class="StatsBlock-module--playerTitle--34o4h"><span class="undefined">Messi </span><span
+                                    class="sr-only">Stats All Time Internationals All Time </span><span
+                                    class="StatsBlock-module--club--2QFvb"></span></h3>
+                            <ul class="StatsBlock-module--mainStats--12QxA relative flex">
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--goals--NKbmt"><span
+                                        class="StatsBlock-module--statNum--1Tu-D ">76</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Goals</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--assists--2zdS2"><span
+                                        class="StatsBlock-module--statNum--1Tu-D ">47</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Assists</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--apps--10lik"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">151</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Apps</span></li>
+                            </ul>
+                            <ul class="undefined">
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 ">165</span><span class="undefined ">
+                                        mins per goal</span></li>
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 text-green-400">102</span><span class="undefined text-green-400"> mins per goal
+                                        contribution</span></li>
+                            </ul>
+                        </div>
+                        <div class="StatsBlock-module--statsBlock---Gffk relative text-center w-1/2">
+                            <h3 class="StatsBlock-module--playerTitle--34o4h"><span class="undefined">Ronaldo
+                                </span><span class="sr-only">Stats All Time Internationals All Time </span><span
+                                    class="StatsBlock-module--club--2QFvb"></span></h3>
+                            <ul class="StatsBlock-module--mainStats--12QxA relative flex">
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--goals--NKbmt"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">109</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Goals</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--assists--2zdS2"><span
+                                        class="StatsBlock-module--statNum--1Tu-D ">31</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Assists</span></li>
+                                <li class="StatsBlock-module--stat--3dOFi StatsBlock-module--apps--10lik"><span
+                                        class="StatsBlock-module--statNum--1Tu-D StatsBlock-module--largeNum--1nl6o">179</span><span
+                                        class="StatsBlock-module--statType--3aTn2"> Apps</span></li>
+                            </ul>
+                            <ul class="undefined">
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 text-green-400">131</span><span class="undefined text-green-400"> mins per goal</span>
+                                </li>
+                                <li class="StatsBlock-module--subStatsItem--20nHo"><span
+                                        class="StatsBlock-module--subStat--3-1S8 ">102</span><span class="undefined ">
+                                        mins per goal contribution</span></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/xbox.jpg" alt="">
-                        <div class="text">Playing video games</div>
-                        <p>3 games I'm playing now:</p>
-                        <ol>
-                            <li>FIFA 21</li>
-                            <li>Forza Horizon 4</li>
-                            <li>Resident Evil 7: Biohazard</li>
-                        </ol>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/uzi.jpg" alt="">
-                        <div class="text">Listening to <span>music</span></div>
-                        <p>3 albums I'm listening to now:</p>
-                        <ol>
-                            <li>Eternal Atake by Lil Uzi Vert</li>
-                            <li>Pluto x Baby Pluto by Future & Lil Uzi Vert</li>
-                            <li>So Much Fun by Young Thug</li>
-                        </ol>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="images/tuna.jpg" alt="">
-                        <div class="text">Eating delicious food</div>
-                        <p>My favorite dishes:</p>
-                        <ol>
-                            <li>Sushi</li>
-                            <li>Phố</li>
-                            <li>Carne Asada Tacos</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Contact Section -->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact me</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <p>Feel free to contact me if you're interesed in my work and I could make you a website!</p>
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Alex Wilson</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-map-pin"></i>
-                            <div class="info">
-                                <div class="head">Located</div>
-                                <div class="sub-title">Bellingham, WA</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">alexjowilson7@gmail.com</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-mobile"></i>
-                            <div class="info">
-                                <div class="head">Work Phone</div>
-                                <div class="sub-title">425-551-0251</div>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-
-                <div class="column right">
-                   <div class="text">Message Me</div> 
-                   <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Decribe project.." required></textarea>
-                        </div>
-                        <div class="button">
-                            <button type="submit">Send message</button>
-                        </div>
-                   </form>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
     <!--Footer Section -->
     <footer>
-        <span>Created By <a href="#">Alex Wilson</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+        <span>Created By <a href="#">Alex Wilson</a> | <span class="far fa-copyright"></span> 2021 All rights
+            reserved.</span>
     </footer>
 
-
     <script src="script.js"> </script>
-
-
 </body>
 </html>
